@@ -1,0 +1,107 @@
+
+
+body {
+ background-color: lightblue;
+}
+
+h1 {
+    background-color: #04AA6D;
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid bisque;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12;
+    overflow: hidden;
+    font-size: large;
+    font-family: Arial;
+    font-style: inherit;
+
+}
+
+ul li {
+  float: left;
+}
+
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+}
+li a:hover {
+    background-color: #c5c3c3;
+    color: white;
+}
+
+ul li a.active {
+    background-color: #04AA6D;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #868383;
+}
+
+
+#myInput {
+  background-repeat: no-repeat;
+  font-size: 16px;
+  border: 1px solid white;
+  border-bottom: 1px solid white;
+  color: black;
+  padding: 5px;
+
+}
+p {
+  color: black;
+}
+
+h2 {
+  background-color: lightblue;
+  display: inline;
+  text-align: right;
+}
+
+.Network{
+  color: brown;
+}
+
+.IT {
+  color: crimson;
+}
+
+.service {
+  color: rgb(23, 19, 238);
+}
+
+.home {
+  color: rgb(245, 5, 125);
+}
+
+.About {
+  color: tomato;
+}
+
+.Contact {
+  color: rgb(241, 145, 1);
+}
+
+.Blog {
+  color: rgb(39, 160, 89);
+}
+
+.Projects {
+  color: red;
+
+}
